@@ -10,14 +10,14 @@ Lab Module 3 builds a smart IoT simulation that controls indoor climate automati
 
 **How it works**
 
-The system is built around DeviceDataManager, which controls three subsystems using callback functions. SensorAdapterManager uses APScheduler to collect data every 5 seconds from three simulated sensors: temperature, humidity, and pressure. These sensors use either time-series data or random values. If the temperature goes above 20°C or below 19°C, DeviceDataManager sends HVAC commands to ActuatorAdapterManager. This manager checks the location ID and forwards commands to the correct simulator (HVAC or humidifier), which logs realistic on/off actions. Duplicate commands are filtered to avoid unnecessary actuator changes. SystemPerformanceManager tracks CPU and memory every 60 seconds. The whole system runs through ConstrainedDeviceApp, ensuring smooth startup, shutdown, and error handling.
+The system is built around DeviceDataManager, which controls three subsystems using callback functions. SensorAdapterManager uses APScheduler to collect data every 5 seconds from three simulated sensors: temperature, humidity, and pressure. These sensors use either time-series data or random values. If the temperature goes above 20°C or below 19°C, DeviceDataManager and sends HVAC commands to ActuatorAdapterManager. The ActutorAdapterManager checks the location ID and forwards commands to the correct simulator, either HVAC or humidifier, and also logs realistic on/off actions. Here, redundancies are filtered to avoid unnecessary actuator changes. SystemPerformanceManager tracks CPU and memory every 60 seconds. Entire system runs through ConstrainedDeviceApp which ensure smooth startup, shutdown, and error handling.
 
 Code Repository and Branch
 URL: https://github.com/emmapaq/cda-python-components/tree/labmodule03
 
 **UML Design Diagram(s)**
 
-UML diagram showing DeviceDataManager as central orchestrator implementing IDataMessageListener, coordinating SensorAdapterManager (with TemperatureSensorSimTask, HumiditySensorSimTask, PressureSensorSimTask using SensorDataGenerator), ActuatorAdapterManager (with HvacActuatorSimTask, HumidifierActuatorSimTask), and SystemPerformanceManager. All components use APScheduler for background task execution with callback-driven data flow and automatic threshold-based climate control logic.
+UML diagram showing DeviceDataManager as the center for implementing  SensorAdapterManager (with TemperatureSensorSimTask, HumiditySensorSimTask, PressureSensorSimTask using SensorDataGenerator), ActuatorAdapterManager (with HvacActuatorSimTask, HumidifierActuatorSimTask), and SystemPerformanceManager. All components use APScheduler for background task execution with callback-driven data flow and automatic threshold-based climate control logic.
 
 ![Lab Module 03 UML](LabModule03_UML.png "Lab Module 03 UML")
 
