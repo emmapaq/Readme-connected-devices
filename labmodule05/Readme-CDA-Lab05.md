@@ -19,7 +19,7 @@ URL: https://github.com/emmapaq/cda-python-components/tree/labmodule05
 
 UML diagram indicates SystemPerformanceManager collecting system metrics with callback support, DataUtil handling JSON conversion, SystemPerformanceData storing performance information, and IDataMessageListener connecting system components.
 
-![Lab Module 05 CDA - UML](Lab05_CDA_UML.jpg)
+![Lab Module 05 CDA - UML](Lab05_CDA_UML.png)
 
 **Unit Tests Executed**
 
