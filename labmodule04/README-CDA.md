@@ -23,7 +23,7 @@ URL: https://github.com/emmapaq/python-components/tree/labmodule04
 
 ### UML Design Diagram(s)
 
-![Lab Module 04 UML](LabModule04_UML.png)
+![Lab Module 04 UML](Lab04_uml.png)
 
 ![Lab Module 04 UML](LabModule04_UML_02.png)
 
@@ -40,5 +40,6 @@ URL: https://github.com/emmapaq/python-components/tree/labmodule04
 - test_SensorEmulatorManager
 - test_ActuatorEmulatorManager
 - test_EmbeddedSensorAdapter
+
 
 
