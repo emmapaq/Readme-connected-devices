@@ -1,6 +1,6 @@
 **Constrained Device Application (Connected Devices)**
 
-##Lab Module 08
+## Lab Module 08
 
 Description
 
