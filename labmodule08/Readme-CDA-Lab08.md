@@ -19,7 +19,7 @@ URL: https://github.com/emmapaq/cda-python-components/tree/labmodule08
 
 UML diagram showing CoapServerAdapter managing three handlers (GetSystemPerformanceResourceHandler, GetTelemetryResourceHandler, UpdateActuatorResourceHandler), integrated with DeviceDataManager for data flow between sensors, actuators, and CoAP clients. Includes resource tree structure, JSON conversion via DataUtil, and asyncio threading model.
 
-![Lab Module 08 CDA - UML](Lab_Mod_08_CDA_UML.png)
+![Lab Module 08 CDA - UML](lab_mod_08_CDA.png)
 
 **Integration Tests Executed**
 
