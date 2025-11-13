@@ -30,5 +30,5 @@ The design shows MqttClientConnector implementing IPubSubClient interface, integ
 **Integration Tests Executed**
 
 - MqttClientConnectorTest
-- gateway-device-app-0.0.1-jar-with-dependencies.jar
+- 
  
