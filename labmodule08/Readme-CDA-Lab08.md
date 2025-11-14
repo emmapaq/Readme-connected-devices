@@ -23,8 +23,8 @@ UML diagram showing CoapServerAdapter managing three handlers (GetSystemPerforma
 
 **Unit Tests Executed**
 
-- CoapServerAdapterTest
-
-- **Integration Tests Executed**
-
 - N/A
+
+**Integration Tests Executed**
+
+- CoapServerAdapterTest
