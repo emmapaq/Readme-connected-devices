@@ -21,7 +21,10 @@ UML diagram showing CoapServerAdapter managing three handlers (GetSystemPerforma
 
 ![Lab Module 08 CDA - UML](lab_mod_08_CDA.png)
 
-**Integration Tests Executed**
+**Unit Tests Executed**
 
-- ConstrainedDeviceApp 
 - CoapServerAdapterTest
+
+- **Integration Tests Executed**
+
+- N/A
