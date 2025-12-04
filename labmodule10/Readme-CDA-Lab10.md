@@ -22,11 +22,6 @@ The classes that interact in the CDA UML are: ConstrainedDeviceApp interacts wit
 ![Lab Module 10 CDA - UML](CDA-Lab10.png)
 
 
-
-**Wireshark Showing TLS protocol**
-<img width="3840" height="2160" alt="Screenshot From 2025-10-27 19-17-19" src="https://github.com/user-attachments/assets/60f86492-4796-4bed-9c13-3c6fa2b32f3a" />
-
-
 **Unit Tests Executed**
 
 1. CDA application tests 
